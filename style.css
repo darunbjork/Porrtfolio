@@ -122,26 +122,28 @@ footer, .page-footer {
 }
 
 .social-media img {
-  width: 24px;
-  margin: 0 12px;
-  transition: transform 0.3s ease;
+  width: 48px; /* Increase the size of the social media icons */
+  height: 48px; /* Ensure the height matches the width */
+  margin: 0 16px; /* Increase the margin for better spacing */
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .social-media img:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
+  opacity: 0.8;
 }
 
 /* Projects Section */
 #projects .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusted to display 3 items per row */
+  gap: 40px; /* Adjust gap between grid items */
   margin-top: 20px;
 }
 
 .grid-item {
   background-color: #fff;
-  padding: 20px;
+  padding: 25px; /* Increased padding for larger items */
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
@@ -158,6 +160,13 @@ footer, .page-footer {
 }
 
 .grid-item p {
+  margin-bottom: 15px;
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
   margin-bottom: 15px;
 }
 
@@ -206,7 +215,7 @@ footer, .page-footer {
 }
 
 .about-card table th {
-  background-color: #f4f4
+  background-color: #f4f4f4;
 }
 
 /* Home Section Style */
@@ -235,8 +244,8 @@ footer, .page-footer {
 }
 
 .profile__portrait {
-  width: 150px; /* Sets the width of the image */
-  height: 150px; /* Sets the height of the image */
+  width: 300px; /* Sets the width of the image */
+  height: 300px; /* Sets the height of the image */
   border-radius: 50%; /* Makes the image round */
   margin: 20px auto; /* Adds margin to the top and bottom, auto centers horizontally */
   display: block; /* Ensures the image is block level to respect margin auto */
