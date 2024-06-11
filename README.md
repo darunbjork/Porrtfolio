@@ -11,3 +11,4 @@ Feel free to reach out to me via email at darunbjork@gmail.com or connect with m
 
 Visit My Portfolio
 Explore my full portfolio here. I'm excited to share my work with you!
+Click on https://dev-portfolio-projects.netlify.app
