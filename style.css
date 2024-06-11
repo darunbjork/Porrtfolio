@@ -1,4 +1,4 @@
-/* General Resets */
+
 * {
   margin: 0;
   padding: 0;
@@ -11,14 +11,14 @@ body, html {
   width: 100%;
   overflow-x: hidden;
   line-height: 1.6;
-  color: #333; /* Body text color */
-  background-color: #f4f4f4; /* Body background color */
+  color: #333;
+  background-color: #f4f4f4; 
 }
 
-/* Navigation Styles */
+
 .navbar {
-  background-color: #333; /* Navbar background color */
-  color: #fff; /* Navbar text color */
+  background-color: #333; 
+  color: #fff; 
   display: flex;
   justify-content: space-between;
   padding: 10px 5%;
@@ -26,7 +26,7 @@ body, html {
 }
 
 .navbar:hover {
-  background-color: #444; /* Navbar hover background color */
+  background-color: #444; 
 }
 
 .navigation-list {
@@ -39,17 +39,17 @@ body, html {
 }
 
 .navigation-list a {
-  color: #fff; /* Navbar link color */
+  color: #fff; 
   text-decoration: none;
   font-weight: 600;
   transition: color 0.3s ease;
 }
 
 .navigation-list a:hover, .navigation-list a:focus {
-  color: #ffc107; /* Navbar link hover color */
+  color: #ffc107; 
 }
 
-/* Section Styling */
+
 section {
   padding: 60px 5%;
 }
@@ -58,22 +58,22 @@ section h2 {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 40px;
-  color: #333; /* Section heading color */
+  color: #333; 
 }
 
-/* Contact Section */
+
 .profile {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #fff; /* Profile background color */
+  background-color: #fff; 
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .profile h1 {
   font-size: 2rem;
-  color: #333; /* Profile heading color */
+  color: #333; 
   margin-bottom: 20px;
 }
 
@@ -99,8 +99,8 @@ textarea {
 }
 
 button {
-  background-color: #333; /* Button background color */
-  color: #fff; /* Button text color */
+  background-color: #333; 
+  color: #fff; 
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -109,22 +109,22 @@ button {
 }
 
 button:hover {
-  background-color: #444; /* Button hover background color */
+  background-color: #444; 
 }
 
-/* Footer Styles */
+
 footer, .page-footer {
-  background-color: #333; /* Footer background color */
-  color: #fff; /* Footer text color */
+  background-color: #333; 
+  color: #fff; 
   text-align: center;
   padding: 20px 0;
   margin-top: 40px;
 }
 
 .social-media img {
-  width: 48px; /* Increase the size of the social media icons */
-  height: 48px; /* Ensure the height matches the width */
-  margin: 0 16px; /* Increase the margin for better spacing */
+  width: 48px; 
+  height: 48px; 
+  margin: 0 16px;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
@@ -133,17 +133,17 @@ footer, .page-footer {
   opacity: 0.8;
 }
 
-/* Projects Section */
+
 #projects .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusted to display 3 items per row */
-  gap: 40px; /* Adjust gap between grid items */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  gap: 40px; 
   margin-top: 20px;
 }
 
 .grid-item {
   background-color: #fff;
-  padding: 25px; /* Increased padding for larger items */
+  padding: 25px; 
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
@@ -155,7 +155,7 @@ footer, .page-footer {
 
 .grid-item h2 {
   font-size: 1.5rem;
-  color: #333; /* Grid item heading color */
+  color: #333; 
   margin-bottom: 10px;
 }
 
@@ -172,8 +172,8 @@ footer, .page-footer {
 
 .grid-item a {
   display: inline-block;
-  background-color: #333; /* Link background color */
-  color: #fff; /* Link text color */
+  background-color: #333; 
+  color: #fff;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
@@ -181,12 +181,12 @@ footer, .page-footer {
 }
 
 .grid-item a:hover {
-  background-color: #444; /* Link hover background color */
+  background-color: #444; 
 }
 
-/* About Card */
+
 .about-card {
-  background-color: #fff; /* About card background color */
+  background-color: #fff; 
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -218,37 +218,37 @@ footer, .page-footer {
   background-color: #f4f4f4;
 }
 
-/* Home Section Style */
+
 #home {
-  text-align: center; /* Centers the text */
-  padding: 50px 20px; /* Adds padding around */
-  background-color: #282c34; /* Dark background for contrast */
-  color: #ffffff; /* Light text color */
+  text-align: center; 
+  padding: 50px 20px; 
+  background-color: #282c34; 
+  color: #ffffff; 
 }
 
 #home h1 {
-  margin-top: 20px; /* Adds space above the h1 */
-  font-size: 2.5em; /* Larger font size for the main heading */
-  color: #ff9800; /* Orange color for emphasis */
+  margin-top: 20px; 
+  font-size: 2.5em; 
+  color: #ff9800;
 }
 
 #home p {
-  font-size: 1.2em; /* Slightly larger paragraph text */
-  margin: 20px auto; /* Adds margin to the top and bottom, auto centers horizontally */
-  max-width: 600px; /* Max width to control line length for readability */
+  font-size: 1.2em; 
+  margin: 20px auto;
+  max-width: 600px;
 }
 
 #home p span {
-  font-weight: bold; /* Makes "web" bold */
-  color: #4caf50; /* Gives the "web" text a distinct green color */
+  font-weight: bold; 
+  color: #4caf50; 
 }
 
 .profile__portrait {
-  width: 300px; /* Sets the width of the image */
-  height: 300px; /* Sets the height of the image */
-  border-radius: 50%; /* Makes the image round */
-  margin: 20px auto; /* Adds margin to the top and bottom, auto centers horizontally */
-  display: block; /* Ensures the image is block level to respect margin auto */
-  border: 3px solid #ff9800; /* Adds a border around the image */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 300px; 
+  height: 300px; 
+  border-radius: 50%; 
+  margin: 20px auto; 
+  display: block;
+  border: 3px solid #ff9800; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
