@@ -11,4 +11,3 @@ Feel free to reach out to me via email at darunbjork@gmail.com or connect with m
 
 Visit My Portfolio
 Explore my full portfolio here. I'm excited to share my work with you!
-https://tranquil-bombolone-11e058.netlify.app/
